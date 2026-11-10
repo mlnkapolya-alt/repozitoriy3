@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<Windows.h>
 
-void print1_10() {
+void print1_10() { // правка 1
 	int a = 1;
 	do {
 		printf("%d ", a);
-		a += 1;
+		a += 1;// правка 2
 	} while (a <= 10);
 }
 void print10_1() {
